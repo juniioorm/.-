@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-image: url(https://img.freepik.com/vetores-gratis/degrade-de-fundo-azul_23-2149337036.jpg?w=1380&t=st=1661909958~exp=1661910558~hmac=1bc1efcb61e81d7847ca3b90c4882b3ef0ac7e9fb4a5fbb527575190e4a02943);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+} 
+.container{
+    width: 350px;
+    height: 500px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(3px);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius: 15px;
+
+}
+.container h1 {
+    color: white;
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.container p {
+    margin-top: 40px;
+    color: white;
+}
+
+.container form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.container input{
+    margin-top: 20px;
+    background-color: rgb(224, 224, 224);
+    border: none;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+input::placeholder{
+    font-size: 15px;
+}
+
+button{
+    width: 170px;
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+}
+button:hover{
+    width: 170px;
+    margin-top: 20px;
+    background-color: rgb(0, 0, 92);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.container p > a{
+    margin-left: 10px;
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container p > a:hover{
+    margin-left: 10px;
+    color: rgb(0, 0, 92);
+    text-decoration: none;
+    font-weight: bold;
+}
+.botoes{
+    display: flex;
+    gap: 10px;
+}
+
+footer i{
+    font-size: 30px;
+    margin: 40px 10px;
+    cursor: pointer;
+
+}
+footer i:hover{
+    font-size: 30px;
+    margin: 40px 10px;
+    cursor: pointer;
+    color: blue;
+    transition: 0.3s;
+}
+
+@media(max-width:600px){
+    .container{
+        padding: 10px;
+    }
+}
